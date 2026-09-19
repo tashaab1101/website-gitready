@@ -40,7 +40,7 @@ Live Demo:  [Klik di Sini untuk Mencoba Website](https://tashaab1101.github.io/w
 
 ---
 
-## What We've Learned
+## What We've Learned 💡
 
 Melalui studi kasus proyek kolaboratif ini, kelompok kami mempelajari banyak hal baru, di antaranya:
 - **Konsep Alur Kerja Git Real-World:** Memahami pentingnya membuat fitur baru di dalam branch terpisah (`feature branch`) agar tidak mengacaukan atau merusak kode utama di branch `main`.
