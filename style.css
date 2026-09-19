@@ -3,62 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 body {
     font-family: Arial, sans-serif;
     background: #f5f5f5;
     color: #333;
+    transition: background 0.2s, color 0.2s;
 }
-
+ 
+/* ---------- Navbar ---------- */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
     padding: 16px 40px;
     background: white;
     border-bottom: 1px solid #ddd;
 }
-
+ 
 .logo {
     font-size: 22px;
     font-weight: bold;
 }
-
+ 
 .navbar-actions {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
-
-.member-links {
+ 
+.member-nav {
     display: flex;
     gap: 8px;
 }
-
+ 
 .member-link {
     padding: 8px 14px;
     border: none;
     border-radius: 8px;
+    background: #e8e8e8;
+    color: #333;
     cursor: pointer;
 }
-
+ 
+.member-link:hover {
+    background: #dcdcdc;
+}
+ 
 .member-link.active {
     font-weight: bold;
+    background: #2563eb;
+    color: white;
 }
-
-.theme-toggle {
+ 
+.btn-toggle {
     padding: 8px 12px;
     border: none;
     border-radius: 8px;
+    background: #333;
+    color: white;
     cursor: pointer;
 }
-
+ 
+/* ---------- Konten ---------- */
 main {
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
 }
-
+ 
 .hero,
 .about,
 .skills {
@@ -67,11 +83,11 @@ main {
     margin-bottom: 20px;
     border-radius: 16px;
 }
-
+ 
 .hero {
     text-align: center;
 }
-
+ 
 .avatar {
     width: 120px;
     height: 120px;
@@ -79,22 +95,76 @@ main {
     object-fit: cover;
     margin-bottom: 15px;
 }
-
+ 
 .btn-primary {
     margin-top: 15px;
     padding: 10px 18px;
     border: none;
     border-radius: 8px;
+    background: #2563eb;
+    color: white;
     cursor: pointer;
 }
-
+ 
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+ 
 #skill-list {
     margin-top: 15px;
     padding-left: 20px;
 }
-
+ 
 footer {
     text-align: center;
     padding: 25px;
 }
-
+ 
+/* ---------- Fokus keyboard ---------- */
+button:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 2px;
+}
+ 
+/* ---------- Dark mode ---------- */
+body.dark-mode {
+    background: #121212;
+    color: #eee;
+}
+ 
+body.dark-mode .navbar {
+    background: #1e1e1e;
+    border-bottom-color: #333;
+}
+ 
+body.dark-mode .hero,
+body.dark-mode .about,
+body.dark-mode .skills {
+    background: #1e1e1e;
+}
+ 
+body.dark-mode .member-link {
+    background: #333;
+    color: #eee;
+}
+ 
+body.dark-mode .member-link:hover {
+    background: #444;
+}
+ 
+body.dark-mode .member-link.active {
+    background: #3b82f6;
+    color: white;
+}
+ 
+body.dark-mode .btn-toggle {
+    background: #eee;
+    color: #121212;
+}
+ 
+/* ---------- Layar kecil ---------- */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 16px 20px;
+    }
+}
