@@ -11,7 +11,6 @@ Website Profile Card BNCC ini adalah halaman kartu profil interaktif yang menamp
 
 ![Screenshot](uoi.png)
 
-Live Demo: [proje (1).mp4](#)
 
 ---
 
