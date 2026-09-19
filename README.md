@@ -9,7 +9,6 @@ Website Profile Card BNCC ini adalah halaman kartu profil interaktif yang menamp
 
 ![Screenshot](link-screenshot-kamu.png)
 
-Live Demo: [link-demo-jika-ada](#)
 
 ---
 
