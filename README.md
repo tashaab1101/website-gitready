@@ -3,7 +3,7 @@ Website Profile Card BNCC ini adalah halaman kartu profil interaktif yang menamp
 
 ---
 
-## Visualisasi
+## Visualisasi 📸
 
 <!-- Tempel screenshot tampilan halaman di sini, atau link demo (misalnya GitHub Pages).-->
 
@@ -13,8 +13,7 @@ Live Demo: [link-demo-jika-ada](#)
 
 ---
 
-## Tech Stack
-
+## Tech Stack 🛠️
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
@@ -22,8 +21,7 @@ Live Demo: [link-demo-jika-ada](#)
 
 ---
 
-## Fitur Utama
-
+## Fitur Utama ✨
 - [x] Toggle Dark Mode / Halaman Interaktif
 - [x] Tampilan kartu profil dinamis
 - [x] Responsive layout untuk desktop dan mobile
@@ -31,9 +29,9 @@ Live Demo: [link-demo-jika-ada](#)
 
 ---
 
-## Contribution
+## Contribution 👥
 
-| Jokowi Muda | Role | Kontribusi |
+| Name | Role | Kontribusi |
 |---|---|---|
 | [Tasha](https://github.com) | Project Initiator | Membuat repository utama kelompok, mengatur dan mengundang akses kolaborator tim, memasukkan file starter `index.html`, serta melakukan review dan merge seluruh Pull Request dari branch fitur ke branch utama. |
 | [Jihan](https://github.com) | Styling Engineer | Membuat branch `styling`, mendesain seluruh tampilan visual dan tata letak halaman web di file `style.css`, serta menghubungkannya ke berkas HTML utama. |
@@ -41,7 +39,7 @@ Live Demo: [link-demo-jika-ada](#)
 
 ---
 
-## How to Run
+## How to Run 💡
 
 1. Clone repository ini:
    ```bash
@@ -51,7 +49,7 @@ Live Demo: [link-demo-jika-ada](#)
 
 ---
 
-## Feature Improvement
+## Feature Improvement 🚀 
 
 Ide pengembangan lanjutan jika project ini dilanjutkan, misalnya:
 
