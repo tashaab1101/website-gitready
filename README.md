@@ -42,7 +42,7 @@ Live Demo:  [Klik di Sini untuk Mencoba Website](https://tashaab1101.github.io/w
 
 ## What We've Learned 💡
 
-Melalui studi kasus proyek kolaboratif ini, kelompok kami mempelajari banyak hal baru, di antaranya:
+Melalui studi kasus proyek kolaboratif ini, kelompok kami mempelajari banyak hal baru antara lain:
 - **Konsep Alur Kerja Git Real-World:** Memahami pentingnya membuat fitur baru di dalam branch terpisah (`feature branch`) agar tidak mengacaukan atau merusak kode utama di branch `main`.
 - **Code Review & Pull Request:** Merasakan langsung bagaimana proses pengajuan kode formal dilakukan melalui Pull Request (PR) dan pentingnya memberikan komentar tinjauan sebelum kode digabungkan.
 - **Manajemen Konflik Kode (Merge Conflict):** Belajar cara taktis mendeteksi dan menyelesaikan konflik kode secara damai ketika dua orang anggota tim melakukan modifikasi pada file yang sama (`index.html`).
