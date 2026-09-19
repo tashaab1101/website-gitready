@@ -1,36 +1,61 @@
 # Website Profile Card BNCC 🚀
-
-### Tech Stack 🛠️ 
-Teknologi yang digunakan dalam membangun proyek kolaborasi ini:
-* **HTML5** - Sebagai struktur dasar halaman web.
-* **CSS3** - Untuk styling, tata letak, dan keindahan visual.
-* **JavaScript** - Untuk interaktivitas dan fungsionalitas fitur halaman.
-* **Git & GitHub** - Sebagai version control dan media kolaborasi tim.
+Website Profile Card BNCC ini adalah halaman kartu profil interaktif yang menampilkan data informasi anggota tim secara dinamis dan responsif, dibuat sebagai study case kolaborasi tim dalam Workshop Git & GitHub.
 
 ---
 
-### Contribution (Kontribusi Anggota) 👥 
-Proyek ini dikerjakan secara kolaboratif dengan pembagian tugas sebagai berikut:
-* **Tasha (`tashaab1101`) - Project Initiator**
-  * Membuat repositori awal di GitHub, mengatur akses collaborator tim, mengunggah struktur awal file `index.html`, serta memimpin proses review kode dan penggabungan (merge) seluruh Pull Request ke branch utama.
-* **Jihan (`jihanz-ai`) - Styling Engineer**
-  * Bertanggung jawab penuh pada desain visual, membuat file `style.css`, menghias layout kartu profil, dan menghubungkan tag stylesheet ke file utama melalui branch terpisah (`styling`).
-* **Calysta (`calystaartysia`) - Script Engineer**
-  * Bertanggung jawab membuat web menjadi interaktif, menulis logika fungsi pada file `script.js`, serta menyambungkan script interaktivitas ke halaman utama melalui branch terpisah (`feature/javascript`).
+## Visualisasi
+
+<!-- Tempel screenshot tampilan halaman di sini, atau link demo (misalnya GitHub Pages).-->
+
+![Screenshot](link-screenshot-kamu.png)
+
+Live Demo: [link-demo-jika-ada](#)
 
 ---
 
-### What We've Learned 💡 
-Melalui studi kasus ini, kami belajar banyak hal penting mengenai alur kerja developer nyata, di antaranya:
-* Memahami cara kerja kolaborasi Git secara tim menggunakan percabangan (branching) agar kode tidak saling menimpa.
-* Belajar melakukan proses pengajuan kode formal melalui Pull Request (PR) disertai tinjauan kode (Code Review).
-* Mengetahui cara menangani konflik kode (Merge Conflict) secara taktis ketika dua anggota tim mengubah baris berkas yang sama.
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Git & GitHub
 
 ---
 
-### Feature Improvement 🚀
-Rencana pengembangan fitur ke depannya untuk membuat aplikasi ini lebih baik:
-* Menambahkan animasi transisi yang lebih halus saat berpindah antar profil anggota.
-* Mengintegrasikan mode gelap (Dark Mode) otomatis berdasarkan preferensi sistem pengguna.
-* Menyimpan data anggota ke dalam format JSON lokal agar lebih mudah dikelola dan ditambah di kemudian hari.
+## Fitur Utama
 
+- [x] Toggle Dark Mode / Halaman Interaktif
+- [x] Tampilan kartu profil dinamis
+- [x] Responsive layout untuk desktop dan mobile
+- [x] Navigasi menu perpindahan profil anggota tim yang responsif
+
+---
+
+## Contribution
+
+| Jokowi Muda | Role | Kontribusi |
+|---|---|---|
+| [Tasha](https://github.com) | Project Initiator | Membuat repository utama kelompok, mengatur dan mengundang akses kolaborator tim, memasukkan file starter `index.html`, serta melakukan review dan merge seluruh Pull Request dari branch fitur ke branch utama. |
+| [Jihan](https://github.com) | Styling Engineer | Membuat branch `styling`, mendesain seluruh tampilan visual dan tata letak halaman web di file `style.css`, serta menghubungkannya ke berkas HTML utama. |
+| [Calysta](https://github.com) | Script Engineer | Membuat branch khusus JavaScript, memprogram fungsionalitas logika interaktif halaman pada file `script.js`, serta menyambungkannya ke berkas HTML. |
+
+---
+
+## How to Run
+
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/website-gitready.git
+   ```
+2. Buka folder hasil clone, lalu klik dua kali file `index.html` (atau klik kanan → Open with → Browser).
+
+---
+
+## Feature Improvement
+
+Ide pengembangan lanjutan jika project ini dilanjutkan, misalnya:
+
+- Menyimpan data profil atau status pilihan pengguna ke `localStorage` agar tidak hilang saat halaman di-refresh.
+- Menambahkan animasi transisi yang lebih halus (*smooth transition effect*) saat berpindah antar profil anggota.
+- Menambahkan fitur interaktif tambahan seperti tombol *Like Counter* di setiap kartu profil.
+- Melakukan deploy otomatis via GitHub Actions ke GitHub Pages agar website dapat diakses publik secara online melalui internet.
