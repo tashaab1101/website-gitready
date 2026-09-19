@@ -2,7 +2,7 @@
    script.js
    Ditambahkan oleh Anggota 3 di branch "scripting"
    ========================================================= */
- 
+
 const members = [
   {
     name: "Nama Anggota 1",
@@ -26,37 +26,20 @@ const members = [
     skills: ["JavaScript", "DOM", "Git"]
   }
 ];
- 
-// ---------- Elemen DOM ----------
+
 const memberLinks = document.querySelectorAll(".member-link");
 const userName = document.getElementById("user-name");
 const userRole = document.getElementById("user-role");
 const avatar = document.querySelector(".avatar");
 const aboutText = document.querySelector(".about p");
 const skillList = document.getElementById("skill-list");
-const counterBtn = document.getElementById("counter-btn");
-const counterSpan = document.getElementById("counter");
-const themeToggleBtn = document.getElementById("theme-toggle");
- 
-// Jika foto gagal dimuat (mis. diblokir situs asalnya), tampilkan gambar pengganti
-const fallbackAvatar =
-  "data:image/svg+xml;utf8," +
-  encodeURIComponent(
-    '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300"><rect width="300" height="300" fill="#9ca3af"/><circle cx="150" cy="115" r="50" fill="#e5e7eb"/><ellipse cx="150" cy="250" rx="85" ry="65" fill="#e5e7eb"/></svg>'
-  );
-avatar.addEventListener("error", () => {
-  avatar.src = fallbackAvatar;
-});
- 
-// ---------- State ----------
 const likeCounts = [0, 0, 0];
 let activeMember = 0;
- 
-// ---------- Tampilkan data anggota ----------
+
 function renderMember(memberIndex) {
   const member = members[memberIndex];
   activeMember = memberIndex;
- 
+
   userName.textContent = member.name;
   userRole.textContent = member.role;
   avatar.src = member.image;
@@ -64,29 +47,34 @@ function renderMember(memberIndex) {
   aboutText.textContent = member.description;
   skillList.innerHTML = member.skills.map((skill) => `<li>${skill}</li>`).join("");
   counterSpan.textContent = likeCounts[activeMember];
- 
+
   memberLinks.forEach((link, index) => {
     const isActive = index === memberIndex;
     link.classList.toggle("active", isActive);
     link.setAttribute("aria-pressed", String(isActive));
   });
 }
- 
+
 memberLinks.forEach((link) => {
   link.addEventListener("click", () => {
     renderMember(Number(link.dataset.member));
   });
 });
- 
+
 // ---------- Dark mode toggle ----------
+const themeToggleBtn = document.getElementById("theme-toggle");
+
 themeToggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
- 
+
   const isDark = document.body.classList.contains("dark-mode");
   themeToggleBtn.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
 });
- 
+
 // ---------- Like counter ----------
+const counterBtn = document.getElementById("counter-btn");
+const counterSpan = document.getElementById("counter");
+
 counterBtn.addEventListener("click", () => {
   likeCounts[activeMember] += 1;
   counterSpan.textContent = likeCounts[activeMember];
