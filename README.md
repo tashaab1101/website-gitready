@@ -11,7 +11,7 @@ Website Profile Card BNCC ini adalah halaman kartu profil interaktif yang menamp
 
 ![Screenshot](uoi.png)
 
-Live Demo:  [Klik di Sini untuk Mencoba Website](https://github.io)
+Live Demo:  [Klik di Sini untuk Mencoba Website]([https://github.io](https://tashaab1101.github.io/website-gitready/))
 ---
 
 ## Tech Stack 🛠️
