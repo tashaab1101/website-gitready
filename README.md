@@ -33,9 +33,9 @@ Live Demo: [link-demo-jika-ada](#)
 
 | Name | Role | Kontribusi |
 |---|---|---|
-| [Tasha](https://github.com) | Project Initiator | Membuat repository utama kelompok, mengatur dan mengundang akses kolaborator tim, memasukkan file starter `index.html`, serta melakukan review dan merge seluruh Pull Request dari branch fitur ke branch utama. |
-| [Jihan](https://github.com) | Styling Engineer | Membuat branch `styling`, mendesain seluruh tampilan visual dan tata letak halaman web di file `style.css`, serta menghubungkannya ke berkas HTML utama. |
-| [Calysta](https://github.com) | Script Engineer | Membuat branch khusus JavaScript, memprogram fungsionalitas logika interaktif halaman pada file `script.js`, serta menyambungkannya ke berkas HTML. |
+| [Tasha](https://github.com/tashaab1101) | Project Initiator | Membuat repository utama kelompok, mengatur dan mengundang akses kolaborator tim, memasukkan file starter `index.html`, serta melakukan review dan merge seluruh Pull Request dari branch fitur ke branch utama. |
+| [Jihan](https://github.com/jihanz-ai) | Styling Engineer | Membuat branch `styling`, mendesain seluruh tampilan visual dan tata letak halaman web di file `style.css`, serta menghubungkannya ke berkas HTML utama. |
+| [Calysta](https://github.com/calystaartysia) | Script Engineer | Membuat branch khusus JavaScript, memprogram fungsionalitas logika interaktif halaman pada file `script.js`, serta menyambungkannya ke berkas HTML. |
 
 ---
 
