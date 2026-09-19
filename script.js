@@ -38,6 +38,16 @@ const counterBtn = document.getElementById("counter-btn");
 const counterSpan = document.getElementById("counter");
 const themeToggleBtn = document.getElementById("theme-toggle");
  
+// Jika foto gagal dimuat (mis. diblokir situs asalnya), tampilkan gambar pengganti
+const fallbackAvatar =
+  "data:image/svg+xml;utf8," +
+  encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300"><rect width="300" height="300" fill="#9ca3af"/><circle cx="150" cy="115" r="50" fill="#e5e7eb"/><ellipse cx="150" cy="250" rx="85" ry="65" fill="#e5e7eb"/></svg>'
+  );
+avatar.addEventListener("error", () => {
+  avatar.src = fallbackAvatar;
+});
+ 
 // ---------- State ----------
 const likeCounts = [0, 0, 0];
 let activeMember = 0;
@@ -81,4 +91,3 @@ counterBtn.addEventListener("click", () => {
   likeCounts[activeMember] += 1;
   counterSpan.textContent = likeCounts[activeMember];
 });
- 
