@@ -7,7 +7,7 @@ Website Profile Card BNCC ini adalah halaman kartu profil interaktif yang menamp
 
 <!-- Tempel screenshot tampilan halaman di sini, atau link demo (misalnya GitHub Pages).-->
 
-![Screenshot](link-screenshot-kamu.png)
+![Screenshot](<img width="1826" height="852" alt="uu" src="https://github.com/user-attachments/assets/f67161fc-d1f7-4be5-bfac-c785f1656ceb" />)
 
 
 ---
